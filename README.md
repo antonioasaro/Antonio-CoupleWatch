@@ -1,5 +1,10 @@
-Pebble-CoupleWatch
+Antonio Marvin
 ==================
+
+Animation with Marvin the Martian
+
+///////////////////////////////////////////////////////
+Based on Pebble-CoupleWatch
 
 A watch face intended to be used by couples.
 
