@@ -1,5 +1,8 @@
-Antonio CoupleWatch
+Antonio-CoupleWatch
 ==================
+
+Based on Pebble-CoupleWatch
+Changed names to Tony + Lori :)
 
 A watch face intended to be used by couples.
 
