@@ -13,9 +13,9 @@
 	#define BOY_ON_LEFT true					
 	#define LEFT_SENDER true				//determines if the character that is on the left will be designated as the "sender" character
 	
-	#define DEFAULT_NAMES true				//if true, the other character will be called "Him" or "Her", otherwise the value of the BOY_NAME_CUSTOM/GIRL_NAME_CUSTOM will be used accordingly
-	#define BOY_NAME_CUSTOM "Him"
-	#define GIRL_NAME_CUSTOM "Her"	
+	#define DEFAULT_NAMES  false				//if true, the other character will be called "Him" or "Her", otherwise the value of the BOY_NAME_CUSTOM/GIRL_NAME_CUSTOM will be used accordingly
+	#define BOY_NAME_CUSTOM "Antonio"
+	#define GIRL_NAME_CUSTOM "Lori"	
 	
 	#define INVERT_COLOR false				//inverts the color of the whole watch face
 
@@ -56,10 +56,10 @@
 	//	the "sender" character is the one that will be using the send animation first 
 	//RECEIVER_START_OPTIONS/RECEIVER_START are the options used by the "receiver" character
 	//	the "receiver" character is the one that will be using the receive animation first 
-	#define SENDER_START_OPTIONS START_EVERY_HOUR
-	#define SENDER_START 0 					
-	#define RECEIVER_START_OPTIONS START_EVERY_HOUR
-	#define RECEIVER_START 30 				
+	#define SENDER_START_OPTIONS START_EVERY_X_MINUTES
+	#define SENDER_START 3 // 0					
+	#define RECEIVER_START_OPTIONS START_EVERY_X_MINUTES
+	#define RECEIVER_START 2. // 30			
 
 	//constants
 	#define SCREEN_HEIGHT 168

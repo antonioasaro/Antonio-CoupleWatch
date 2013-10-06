@@ -486,7 +486,7 @@ void setup_names()
 {
 	if(boy)
 	{
-		boy_name = "Me";
+		boy_name = "Tony";
 		
 		#if DEFAULT_NAMES
 			girl_name = "Her";
